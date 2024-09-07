@@ -1,0 +1,27 @@
+class Almacenes:
+    Alto = 0
+    Ancho = 0
+    Longitud = 0
+    Id = 0
+    Nombre = "de serie"
+
+    def __init__(self, Alto, Ancho, Longitud, Id, Nombre):
+        self.Alto = Alto
+        self.Ancho = Ancho
+        self.Longitud = Longitud
+        self.Id = Id
+        self.Nombre = Nombre
+
+
+AlmacenA = Almacenes(2.30, 2.36, 4.42, 352, "Almacen A")
+AlmacenB = Almacenes(2.30, 2.36, 4.42, 353, "Almacen B")
+AlmacenC = Almacenes(2.30, 2.36, 4.42, 354, "Almacen C")
+AlmacenD = Almacenes(2.30, 2.36, 4.42, 355, "Almacen D")
+
+
+class Encargado:
+    def __init__(self, Nombre, Apellido, Cedula, Id):
+        self.Nombre = Nombre
+        self.Apellido = Apellido
+        self.Cedula = Cedula
+        self.Id = Id
